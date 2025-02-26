@@ -1,0 +1,53 @@
+
+header {
+display: flex;
+justify-content: space-between;
+}
+
+.logo {
+  
+  background-color: red;
+ 
+
+}
+
+.links {
+  background-color: yellow;
+  
+}
+
+.led {
+  width:200px;
+  height: auto;
+}
+
+.des {
+  display: flex;
+  
+} 
+
+
+.img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.resize {
+  /* display: flex; */
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+}
+
+.caption {
+  display: block;
+  font-size: 10px;
+}
