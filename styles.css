@@ -5,32 +5,60 @@ justify-content: space-between;
 }
 
 .logo {
-  
-  background-color: red;
+  font-weight: bolder;
+  margin-left: 30px;
+
  
 
 }
 
 .links {
-  background-color: yellow;
+  
   
 }
 
-.led {
-  width:200px;
+.ledimage {
+  width:300px;
   height: auto;
+  object-fit: cover;
+  margin-bottom: 60px;
+  margin-right: 50px;
+  vertical-align: baseline;
+  
 }
 
-.des {
+.description {
+  margin-left: 30px;
+}
+
+.descriptionheader {
+  margin-top: 70px;
+}
+
+.descriptiontext {
   display: flex;
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 70px;
+  /* margin-left: 30px; */
   
+  /* background-color: #6f8e88; */
+
 } 
 
+.container {
+  background-color: #6f8e88;
+}
 
-.img {
+.informationheader {
+  background-color: #f8f3ef;
+  text-align: center;
+}
+.information {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #f8f3ef;
 }
 
 .resize {
@@ -50,4 +78,29 @@ div.item {
 .caption {
   display: block;
   font-size: 10px;
+}
+
+.howitworks {
+  background-color: #D3e3d6;
+}
+
+.bottom {
+  background-color: #f8f3ef;
+}
+
+.footer {
+  background-color: #6f8e88;
+}
+
+body {
+
+  /* font-family: "Urbanist", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal; */
+
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
