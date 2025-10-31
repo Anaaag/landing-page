@@ -2,11 +2,13 @@
 header {
 display: flex;
 justify-content: space-between;
+font-size: 20px;
 }
 
 .logo {
   font-weight: bolder;
-  margin-left: 30px;
+  /* margin-left: 30px; */
+  color: black;
 
  
 
@@ -20,12 +22,19 @@ justify-content: space-between;
 } */
 
 .ledimage {
-  width:300px;
+  width:250px;
   height: auto;
   object-fit: cover;
   margin-bottom: 60px;
   margin-right: 50px;
   vertical-align: baseline;
+
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  
   
 }
 
@@ -34,7 +43,11 @@ justify-content: space-between;
 }
 
 .descriptionheader {
-  margin-top: 70px;
+  /* margin-top: 70px; */
+  font-size: 25px;
+  margin-left: 30px;
+  
+  /* display: flex; */
 }
 
 .descriptiontext {
@@ -42,9 +55,11 @@ justify-content: space-between;
   text-align: left;
   font-size: 15px;
   margin-bottom: 70px;
-  /* margin-left: 30px; */
+  /* margin-left: 100px; */
   
   /* background-color: #6f8e88; */
+
+  
 
 } 
 
@@ -66,8 +81,8 @@ justify-content: space-between;
 
 .resize {
   /* display: flex; */
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: auto;
   object-fit: cover;
   border-radius: 5px;
   border-width: 1px;
@@ -78,24 +93,49 @@ justify-content: space-between;
   
 }
 
+
+h2 {
+  font-size: 30px;
+}
+
 div.item {
   vertical-align: top;
   display: inline-block;
   text-align: center;
-  width: 120px;
+  width: 150px;
+ 
 }
 
 .caption {
   display: block;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .howitworks {
   background-color: #D3e3d6;
+  /* text-align: center; */
+ 
+  
+  
+}
+
+.howitworksheader {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 40px;
+  
+}
+
+.howitworkstext {
+  font-size: 15px;
+  padding: 25px;
+  text-align: center;
+
 }
 
 .bottom {
   background-color: #f8f3ef;
+  text-align: center;
 }
 
 .footer {
@@ -104,12 +144,15 @@ div.item {
 
 body {
 
-  /* font-family: "Urbanist", serif;
+  font-family: "Urbanist", serif;
   font-optical-sizing: auto;
   font-weight: 100;
-  font-style: normal; */
+  font-style: normal;
 
-  font-family: "Bodoni Moda", serif;
+
+
+
+  /* font-family: "Bodoni Moda", serif; */
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
