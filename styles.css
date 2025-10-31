@@ -12,10 +12,12 @@ justify-content: space-between;
 
 }
 
-.links {
+/* .links {
+  display: flex;
+  justify-content: space-;
   
   
-}
+} */
 
 .ledimage {
   width:300px;
@@ -51,21 +53,29 @@ justify-content: space-between;
 }
 
 .informationheader {
-  background-color: #f8f3ef;
+  /* background-color: #f8f3ef; */
   text-align: center;
 }
+
 .information {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #f8f3ef;
-}
+  /* background-color: #f8f3ef; */
+} 
 
 .resize {
   /* display: flex; */
   width: 100px;
   height: 100px;
   object-fit: cover;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  
+  
 }
 
 div.item {
